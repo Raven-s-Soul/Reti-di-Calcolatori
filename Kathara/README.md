@@ -1,5 +1,24 @@
 # Guide on Kathara
 
+>- `lab.conf` descrive il network 
+>- `subdirectories` configurazioni dei diversi dispositivi
+>- `<device_name>.startup` azioni che esegue il dispositivo all avvio
+
+<details>
+<summary><h3>lab.conf</h3></summary><br>
+
+> machine[arg]=value
+> - machine = pc1 ...
+>   - name from a-z
+> - arg = eth port (number)
+>   - from 0 to 9
+> - value = address
+>   - full adreess or only domani 
+
+</details>
+
+***
+
 |prefix|meaning|
 | :--: | :-- |
 |v| low level - single target|
