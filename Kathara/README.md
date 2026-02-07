@@ -72,6 +72,30 @@ ip link set up dev <mainbridge name>  # default down
 brctl setageing <mainbridge name> 600 # default 300
 ```
 
+```
+brctl showmacs
+```
+
+</details>
+
+<details>
+<summary><h3>ipv4</h3></summary><br>
+
+x.startup
+```console 
+ip address add x.x.x.x/x dev eth0
+ip address add y.y.y.y/y dev eth1
+ip route add z.z.z.0/z via a.a.a.a dev eth1
+```
+commands
+```bash
+ip address
+routel
+ping <ip>
+arp -n
+traceroute <ip> -z <1 #time to live>
+```
+
 </details>
 
 ***
