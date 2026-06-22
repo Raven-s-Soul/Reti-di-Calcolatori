@@ -46,4 +46,4 @@ riportata anche in casi di uso parziale
 - [x] [HTTP](HTTP.md)
 - [ ] [mettiamo insieme quanto studiato su: arp, icmp, http e dns]()
 - [x] [La posta elettronica](La%20posta%20elettronica.md)
-- [ ] [Esercizio: posta elettronica e DNS](Esercizio%3A%20posta%20elettronica%20e%20DNS.md)
+- [ ] [Esercizio: posta elettronica e DNS](Esercizio%20-%20posta%20elettronica%20e%20DNS.md)
